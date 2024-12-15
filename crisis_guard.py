@@ -61,7 +61,7 @@ def report_medical_emergency():
         print("3- I am badly burned")
         print("4- I have been exposed to a chemical")
         print("5- Other (please describe)")
-        situation_description = input("Please select one number above: ").strip().lower()
+        situation_description = input("Please select one number above:/n ").strip().lower()
 
         # Handling the different cases when the victim is the one calling:
         if situation_description == "1":
